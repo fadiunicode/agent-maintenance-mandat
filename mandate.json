@@ -1,0 +1,14 @@
+{
+  "mandat_id": "MANDAT-2026-001",
+  "operateur": "Chef d'atelier, Atelier de maintenance A",
+  "aeronef": "F-HZBA",
+  "valide_du": "2026-11-01",
+  "valide_jusqu_au": "2026-12-31",
+  "outils_autorises": ["consulter_procedure", "cloturer_tache", "reporter_inspection"],
+  "taches_autorisees": ["T-101", "T-102", "T-103", "T-104", "T-105", "T-106", "T-107", "T-108", "T-109", "T-110"],
+  "categories_critiques": ["freins", "train_atterrissage", "commandes_vol", "moteur"],
+  "regles": {
+    "reporter_inspection": {"interdit_si_categorie_critique": true, "jours_max": 7},
+    "cloturer_tache": {"exige_procedure_consultee": true}
+  }
+}

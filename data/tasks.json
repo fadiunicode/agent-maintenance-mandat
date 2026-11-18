@@ -1,0 +1,13 @@
+{
+  "T-101": {"libelle": "Inspection des freins", "categorie": "freins", "procedure": "PROC-FREINS", "statut": "ouverte"},
+  "T-102": {"libelle": "Lubrification du train d'atterrissage", "categorie": "train_atterrissage", "procedure": "PROC-TRAIN", "statut": "ouverte"},
+  "T-103": {"libelle": "Tension des câbles de commandes de vol", "categorie": "commandes_vol", "procedure": "PROC-CABLES", "statut": "ouverte"},
+  "T-104": {"libelle": "Inspection boroscopique du moteur", "categorie": "moteur", "procedure": "PROC-MOTEUR", "statut": "ouverte"},
+  "T-105": {"libelle": "Nettoyage des filtres cabine", "categorie": "cabine", "procedure": "PROC-CABINE", "statut": "ouverte"},
+  "T-106": {"libelle": "Remplacement de l'éclairage cabine", "categorie": "cabine", "procedure": "PROC-ECLAIRAGE", "statut": "ouverte"},
+  "T-107": {"libelle": "Contrôle de la pression des pneus", "categorie": "train_atterrissage", "procedure": "PROC-PNEUS", "statut": "ouverte"},
+  "T-108": {"libelle": "Retouche de peinture", "categorie": "structure", "procedure": "PROC-PEINTURE", "statut": "ouverte"},
+  "T-109": {"libelle": "Contrôle de la batterie", "categorie": "electrique", "procedure": "PROC-BATTERIE", "statut": "ouverte"},
+  "T-110": {"libelle": "Vérification des extincteurs", "categorie": "securite_cabine", "procedure": "PROC-EXTINCTEURS", "statut": "ouverte"},
+  "T-999": {"libelle": "Tâche d'un autre aéronef", "categorie": "moteur", "procedure": "PROC-MOTEUR", "statut": "ouverte"}
+}
